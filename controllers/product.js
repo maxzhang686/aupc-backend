@@ -298,6 +298,6 @@ exports.decreaseQuantity = (req, res, next) => {
         error: "Could not update product"
       });
     }
-    nect();
+    next();
   });
 };
